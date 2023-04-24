@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 60px;
+}
+
+header a {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(70, 31, 111);
+    text-decoration: none;
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(32, 135, 138);
+}
+
+body {
+    background-image: url(img/sea-g1929eee38_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: relative;
+    top: 90px;
+    right: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(70, 31, 111);
+}
+
+header p {
+    position: relative;
+    right: 80%;
+    bottom: -180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgb(122, 74, 174);
+}
+
+article {
+  margin-top: 250px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(70, 31, 111);
+    margin-left: 10px;
+}
+
+article h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(11, 111, 205);
+    margin-left: 40px;
+}
+
+article p {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(28, 42, 54);
+    margin-left: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 60px;
+}
+
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(60, 22, 197);
+    font-size: 15px;
+}
+
+footer ul {
+color: rgb(6, 57, 61);
+}
+
+footer a  {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(6, 57, 61);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(6, 32, 61);
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form input {
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: #a80909;
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    color: #ffffff;
+}
